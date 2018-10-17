@@ -10,6 +10,7 @@ function gsqa
   git pull
   git checkout $branch
   git merge master
+  git push
   git checkout master
   git merge --squash $branch
   git branch -D $branch
